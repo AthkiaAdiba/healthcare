@@ -3,8 +3,8 @@ import img from "../../assets/Rectangle 24.png"
 
 const WeAre = () => {
     return (
-        <div className="mt-28 mb-10">
-            <div className="flex flex-col-reverse md:flex-row lg:flex-row gap-14">
+        <div className="mt-36 mb-10">
+            <div className="flex flex-col-reverse md:flex-row lg:flex-row gap-16">
                 <div className="flex-1 space-y-0 md:space-y-4 lg:space-y-7">
                     <p className="w-36 text-lg bg-[#FFFFF5] p-4 rounded-full border border-[#343268]">Who We Are</p>
                     <h4 className="text-[#343268] text-4xl font-semibold">We Help To Get Soultions</h4>

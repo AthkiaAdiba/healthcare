@@ -5,7 +5,7 @@ import img3 from "../../assets/Rectangle 27.png"
 
 const Service = () => {
     return (
-        <div className="mt-28 mb-28 bg-[#FFFFF5] p-2 lg:p-10 rounded-xl">
+        <div className="mt-10 mb-28 bg-[#FFFFF5] p-2 lg:p-10 rounded-xl">
             <div>
                 {/* first row */}
                 <div className="flex flex-col md:flex-row lg:flex-row gap-5 lg:gap-20">
