@@ -44,7 +44,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                     <div className="hidden md:block lg:block">
-                        <a className="btn text-[#343268] text-xl border border-[#343268]">Appointment<MdOutlineArrowOutward /></a>
+                        <a className="btn bg-white text-[#343268] text-xl border border-[#343268]">Appointment<MdOutlineArrowOutward /></a>
                     </div>
                 </div>
             </div>
