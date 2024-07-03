@@ -10,7 +10,7 @@ const Appointment = () => {
                 style={{
                     backgroundImage: `url(${img})`,
                 }}>
-                <div className="w-full h-full flex items-center left-0 top-0 bg-gradient-to-r from-[#020043] to-[rgba(2, 0, 67, 0.3)]">
+                <div className="rounded-l-2xl w-full h-full flex items-center left-0 top-0 bg-gradient-to-r from-[#020043] to-[rgba(2, 0, 67, 0.3)]">
                     <div className='space-y-7 w-full lg:w-1/2 pl-3 lg:pl-12'>
                         <h2 className='text-2xl lg:text-5xl font-bold text-white'>Get Your First Appointment at 50% Off!</h2>
                         <div>
