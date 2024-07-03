@@ -32,17 +32,20 @@ const Navbar = () => {
                             tabIndex={0}
                             className="text-lg text-[#343268] menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                             {links}
+                            <li><a className="btn text-[#343268] text-xl border border-[#343268]">Appointment<MdOutlineArrowOutward /></a></li>
                         </ul>
                     </div>
                     <a className="btn btn-ghost text-xl"><img src={logo} className="" alt="" /></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="text-xl text-[#343268] menu menu-horizontal px-1">
-                        { links}
+                        {links}
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn text-[#343268] text-xl border border-[#343268]">Appointment<MdOutlineArrowOutward/></a>
+                    <div className="hidden md:block lg:block">
+                        <a className="btn text-[#343268] text-xl border border-[#343268]">Appointment<MdOutlineArrowOutward /></a>
+                    </div>
                 </div>
             </div>
         </div>
