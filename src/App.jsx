@@ -6,6 +6,7 @@ import Faq from './components/Faq/Faq'
 import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
 import Service from './components/Service/Service'
+import Testimonial from './components/Testimonial/Testimonial'
 import WeAre from './components/WeAre/WeAre'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Banner></Banner>
         <WeAre></WeAre>
         <Service></Service>
+        <Testimonial></Testimonial>
         <Faq></Faq>
         <Appointment></Appointment>
       </div>

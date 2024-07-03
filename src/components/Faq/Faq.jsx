@@ -2,7 +2,7 @@
 
 const Faq = () => {
     return (
-        <div className="mt-36 mb-10 space-y-5">
+        <div className="mt-32 mb-10 space-y-5">
             <p className="w-20 text-lg bg-[#FFFFF5] p-3 rounded-full border border-[#343268]">Faq</p>
             <h4 className="text-[#343268] text-4xl font-semibold">Frequently Asked Question</h4>
             {/* first question */}
