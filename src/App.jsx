@@ -4,14 +4,16 @@
 import './App.css'
 import Banner from './components/Banner/Banner'
 import Navbar from './components/Navbar/Navbar'
+import WeAre from './components/WeAre/WeAre'
 
 function App() {
   
 
   return (
-    <div className='mx-1 xl:mx-32'>
+    <div className='mx-2 xl:mx-32'>
       <Navbar></Navbar>
       <Banner></Banner>
+      <WeAre></WeAre>
     </div>
   )
 }
